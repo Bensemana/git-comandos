@@ -1,0 +1,58 @@
+Comandos Basicos do GIT Hub
+
+cd e nome do arquivo (entra no diretório)
+cd .. (sai do diretorios)
+cd caminho do diretório (entra no diretorio)
+git init (cria um repositório)
+git status (informa com estatus do diretórios GIT)
+git add (adiciona arquivo no git estage area)
+git *.txt ( adiciona todos os aquivos com extensão TXT)
+git . (adiciona todos os arquivos)
+git -m commit (comita os arquivos)
+ssh-keygen (gera senha ecncrytografada para criar vinculo com o github)
+
+é necessário dar git add para subir para estagem area e depois comitar ou
+pode dar o comando git -a -m commit e comitar adicionar tudo de uma só vez
+
+git diff (mostra o que foi alterado dentro do arquivo)
+
+git diff -- stage (mostra o que foi alterado no arquivo que já deu o git add, o que ja foi para a stage area)
+
+git log (mostra um histórico de todos os commits)
+
+git log -p (mostra em ordem cronologica)
+para terminar digite a letra "q'
+
+git checkout v0.0.0 (altera a versão dos arquivos, neste caso esta voltando para o 1o. commit)
+
+git log -1 (mostra apenas um commit)
+
+git log --pretty=oneline (status reduzido do log)
+
+git k (mostra interface grafica)
+
+git reset HEAD nome.arquivo (remover arquivo da stage area)
+
+git checkout -- (nomedo arquivo) 
+
+git rm (nome do arquivo) (para remover o arquivo do git)
+
+git tag (serve para colocar uma etiqueta no controle de versão)
+
+git tag -a v1.0 -m "Versão 1.0) (o -a serve para comentar a tag quem criou quem comitou)
+
+git tag-a v0.0.0 código oriundo do log 80a7b5035987a890693a9c615baed5151ea -m "v0.0.0" (para incluir uma tag num commit)
+
+git tag -d v0.0.0 (deleta a tag informada)
+
+git branch 'teste' (cria uma branch novo chamado teste)
+
+git checkout teste (altera do branch master para o branch teste)
+
+git checkout -b teste (cria e já muda para o novo branch)
+
+git merge teste (traz as alterações do Brach de teste para o master atualizando os arquivos e tornando a alteração do sistema um produção)
+
+teste de atualização de branch
+
+git reset 'id do master' (RollBack do Master)
