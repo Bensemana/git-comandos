@@ -8,7 +8,7 @@ git status (informa com estatus do diretórios GIT)
 git add (adiciona arquivo no git estage area)
 git *.txt ( adiciona todos os aquivos com extensão TXT)
 git . (adiciona todos os arquivos)
-git -m commit (comita os arquivos)
+git commit -m (comita os arquivos)
 ssh-keygen (gera senha ecncrytografada para criar vinculo com o github)
 
 é necessário dar git add para subir para estagem area e depois comitar ou
