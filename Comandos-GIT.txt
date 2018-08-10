@@ -53,6 +53,4 @@ git checkout -b teste (cria e já muda para o novo branch)
 
 git merge teste (traz as alterações do Brach de teste para o master atualizando os arquivos e tornando a alteração do sistema um produção)
 
-teste de atualização de branch
-
 git reset 'id do master' (RollBack do Master)
